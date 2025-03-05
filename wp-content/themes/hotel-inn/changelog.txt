@@ -1,0 +1,36 @@
+2024 September 24- Version 1.0.11 ❄️
+* Mobile responsiveness 
+* Design bugs fixed
+
+2024 March 23- Version 1.0.10 ❄️
+Added: Copyright Section And Icons Updated And Added .
+
+2024 March 11- Version 1.0.9 ❄️
+Feature: Breadcrumb,Back to top
+
+2024 February 28- Version 1.0.8 ❄️
+Feature: Breadcrumb,Back to top 
+
+2024 January 30- Version 1.0.7 ❄️
+FIXED: Minor Issues Fixed
+
+2023 July 29- Version 1.0.6 ❄️
+FIXED: Minor Issues Fixed
+
+2022 April 19- Version 1.0.5 ❄️
+FIXED: Minor Issues Fixed
+
+2021 September 18- Version 1.0.4 ❄️
+FIXED: Minor Issues Fixed
+
+2021 July 29- Version 1.0.3 ❄️
+FIXED: Minor Issues Fixed
+
+2021 April 29- Version 1.0.2 ❄️
+FIXED: Minor Issues Fixed
+
+2021 April 25- Version 1.0.1 ❄️
+FIXED: Minor Issues Fixed
+
+2021 March 21- Version 1.0.0 ❄️
+* Intial Release

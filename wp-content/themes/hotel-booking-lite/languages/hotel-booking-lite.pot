@@ -1,0 +1,896 @@
+# Copyright (C) 2025 TheMagnifico52
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hotel Booking Lite 2.2.8\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/hotel-booking-lite\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-01-27T20:07:49+05:30\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: hotel-booking-lite\n"
+
+#. Theme Name of the theme
+#: style.css
+msgid "Hotel Booking Lite"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://www.themagnifico.net/products/free-hotel-wordpress-theme"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Hotel Booking is a stunning WordPress theme that you can download for free and use for creating a wonderful website for hotels, motels, guest houses, holiday homes, resorts, hotel booking and advance reservations, camp bookings, and any accommodation related services. This theme is retina-ready and responsive for bringing a sophisticated design that adjusts its layout to every screen no matter which device your users are using. To give your website a professional look, it has a wonderful banner and an overall great design to perfectly complement your business. Call to Action (CTA) buttons are going to guide the visitors and take care of the conversions. Besides that, you get several other sections such as Team, testimonial section that will give a good positive impression on your target audience. Through its user-friendly theme interface, you will get to modify a few things such as the colors and fonts. The codes included in the theme’s core are very well commented, secure and clean so that your website performs very well on several web browsers. Bootstrap framework is used for creating it and is made SEO friendly to grab the best ranks for you to get easily noticed. Translation-ready options are also there and plenty of social media icons are added to the theme."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "TheMagnifico52"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://www.themagnifico.net/"
+msgstr ""
+
+#: 404.php:16
+msgid "404"
+msgstr ""
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr ""
+
+#. translators: %s: post title
+#: comments.php:32
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:37
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:53
+#: comments.php:67
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:55
+#: comments.php:69
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:56
+#: comments.php:70
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:80
+msgid "Comments are closed."
+msgstr ""
+
+#. translators: %s: CMS name, i.e. WordPress.
+#: footer.php:75
+msgid "Proudly powered by %s"
+msgstr ""
+
+#. translators: 1: Theme name,
+#: footer.php:83
+msgid " %1$s "
+msgstr ""
+
+#. translators: 1: Theme author.
+#: footer.php:88
+msgid "by %1$s."
+msgstr ""
+
+#: footer.php:100
+msgid "TOP"
+msgstr ""
+
+#: functions.php:62
+msgid "Primary"
+msgstr ""
+
+#: functions.php:63
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:124
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:126
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:134
+#: inc/customizer.php:310
+msgid "Woocommerce Shop Page Sidebar"
+msgstr ""
+
+#: functions.php:144
+#: inc/customizer.php:336
+msgid "Woocommerce Single Product Page Sidebar"
+msgstr ""
+
+#: functions.php:154
+msgid "Footer Column 1"
+msgstr ""
+
+#: functions.php:164
+msgid "Footer Column 2"
+msgstr ""
+
+#: functions.php:174
+msgid "Footer Column 3"
+msgstr ""
+
+#: functions.php:401
+msgid "https://wordpress.org/support/theme/hotel-booking-lite"
+msgstr ""
+
+#: functions.php:404
+msgid "https://wordpress.org/support/theme/hotel-booking-lite/reviews/#new-post"
+msgstr ""
+
+#: functions.php:407
+msgid "https://demo.themagnifico.net/hotel-booking/"
+msgstr ""
+
+#: functions.php:410
+#: inc/customizer.php:11
+msgid "https://www.themagnifico.net/products/hotel-booking-wordpress-theme"
+msgstr ""
+
+#: functions.php:413
+msgid "https://demo.themagnifico.net/eard/wathiqa/hotel-booking-pro-doc/"
+msgstr ""
+
+#: functions.php:416
+msgid "https://demo.themagnifico.net/eard/wathiqa/hotel-booking-lite-free-doc/"
+msgstr ""
+
+#: functions.php:424
+msgid "Theme Options"
+msgstr ""
+
+#: functions.php:434
+msgid "Welcome To "
+msgstr ""
+
+#: functions.php:439
+#: functions.php:442
+msgid "Contact Support"
+msgstr ""
+
+#: functions.php:440
+msgid "Thank you for trying Hotel Booking Lite , feel free to contact us for any support regarding our theme."
+msgstr ""
+
+#: functions.php:448
+msgid "Checkout Premium"
+msgstr ""
+
+#: functions.php:449
+msgid "Our premium theme comes with extended features like demo content import , responsive layouts etc."
+msgstr ""
+
+#: functions.php:451
+msgid "Get Premium"
+msgstr ""
+
+#: functions.php:457
+#: functions.php:460
+msgid "Review"
+msgstr ""
+
+#: functions.php:458
+msgid "If You love Hotel Booking Lite theme then we would appreciate your review about our theme."
+msgstr ""
+
+#: functions.php:466
+#: functions.php:469
+msgid "Free Documentation"
+msgstr ""
+
+#: functions.php:467
+msgid "Our guide is available if you require any help configuring and setting up the theme. Easy and quick way to setup the theme."
+msgstr ""
+
+#: functions.php:477
+msgid "Free Vs Premium"
+msgstr ""
+
+#: functions.php:480
+msgid "Checkout Documentation"
+msgstr ""
+
+#: functions.php:483
+msgid "View Theme Demo"
+msgstr ""
+
+#: functions.php:490
+msgid "Theme Feature"
+msgstr ""
+
+#: functions.php:491
+msgid "Basic Version"
+msgstr ""
+
+#: functions.php:492
+msgid "Premium Version"
+msgstr ""
+
+#: functions.php:498
+msgid "Header Background Color"
+msgstr ""
+
+#: functions.php:503
+msgid "Custom Navigation Logo Or Text"
+msgstr ""
+
+#: functions.php:508
+msgid "Hide Logo Text"
+msgstr ""
+
+#: functions.php:514
+msgid "Premium Support"
+msgstr ""
+
+#: functions.php:519
+msgid "Fully SEO Optimized"
+msgstr ""
+
+#: functions.php:524
+msgid "Recent Posts Widget"
+msgstr ""
+
+#: functions.php:530
+msgid "Easy Google Fonts"
+msgstr ""
+
+#: functions.php:535
+msgid "Pagespeed Plugin"
+msgstr ""
+
+#: functions.php:540
+msgid "Only Show Header Image On Front Page"
+msgstr ""
+
+#: functions.php:545
+msgid "Show Header Everywhere"
+msgstr ""
+
+#: functions.php:550
+msgid "Custom Text On Header Image"
+msgstr ""
+
+#: functions.php:555
+msgid "Full Width (Hide Sidebar)"
+msgstr ""
+
+#: functions.php:560
+msgid "Only Show Upper Widgets On Front Page"
+msgstr ""
+
+#: functions.php:565
+msgid "Replace Copyright Text"
+msgstr ""
+
+#: functions.php:570
+msgid "Customize Upper Widgets Colors"
+msgstr ""
+
+#: functions.php:575
+msgid "Customize Navigation Color"
+msgstr ""
+
+#: functions.php:580
+msgid "Customize Post/Page Color"
+msgstr ""
+
+#: functions.php:585
+msgid "Customize Blog Feed Color"
+msgstr ""
+
+#: functions.php:590
+msgid "Customize Footer Color"
+msgstr ""
+
+#: functions.php:595
+msgid "Customize Sidebar Color"
+msgstr ""
+
+#: functions.php:600
+msgid "Customize Background Color"
+msgstr ""
+
+#: functions.php:605
+msgid "Importable Demo Content\t"
+msgstr ""
+
+#: functions.php:613
+msgid "Go Premium"
+msgstr ""
+
+#: functions.php:637
+msgid "Thank You For Choosing "
+msgstr ""
+
+#: functions.php:638
+msgid "Get Started With Theme By Clicking On Getting Started."
+msgstr ""
+
+#: functions.php:639
+msgid "Get started"
+msgstr ""
+
+#: functions.php:640
+msgid "Documentation"
+msgstr ""
+
+#: functions.php:643
+msgid "View Demo"
+msgstr ""
+
+#: header.php:34
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer.php:14
+msgid "Buy Hotel Booking Pro"
+msgstr ""
+
+#: inc/customizer.php:24
+msgid "Hotel Booking Pro"
+msgstr ""
+
+#: inc/customizer.php:26
+msgid "GET PREMIUM"
+msgstr ""
+
+#: inc/customizer.php:89
+msgid "Logo Width"
+msgstr ""
+
+#: inc/customizer.php:99
+msgid "Enable Disable Title"
+msgstr ""
+
+#: inc/customizer.php:110
+msgid "Enable Disable Tagline"
+msgstr ""
+
+#: inc/customizer.php:121
+msgid "Site Title Color"
+msgstr ""
+
+#: inc/customizer.php:130
+msgid "Site Tagline Color"
+msgstr ""
+
+#: inc/customizer.php:141
+#: inc/customizer.php:368
+#: inc/customizer.php:396
+#: inc/customizer.php:469
+#: inc/customizer.php:642
+#: inc/customizer.php:716
+#: inc/customizer.php:804
+#: inc/customizer.php:946
+#: inc/customizer.php:986
+msgid "Customizer Options"
+msgstr ""
+
+#: inc/customizer.php:148
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer.php:157
+msgid "Site Width Layout"
+msgstr ""
+
+#: inc/customizer.php:161
+msgid "Full Width"
+msgstr ""
+
+#: inc/customizer.php:162
+msgid "Wide Width"
+msgstr ""
+
+#: inc/customizer.php:163
+msgid "Container Width"
+msgstr ""
+
+#: inc/customizer.php:172
+msgid "Show Theme Preloader"
+msgstr ""
+
+#: inc/customizer.php:183
+msgid "Preloader Background Color"
+msgstr ""
+
+#: inc/customizer.php:193
+msgid "Preloader First Dot Color"
+msgstr ""
+
+#: inc/customizer.php:203
+msgid "Preloader Second Dot Color"
+msgstr ""
+
+#: inc/customizer.php:213
+msgid "Show Sticky Header"
+msgstr ""
+
+#: inc/customizer.php:224
+msgid "Show Theme Scroll To Top"
+msgstr ""
+
+#: inc/customizer.php:236
+msgid "Scroll Top Position"
+msgstr ""
+
+#: inc/customizer.php:239
+#: inc/customizer.php:580
+#: inc/customizer.php:758
+#: inc/customizer.php:784
+msgid "Right"
+msgstr ""
+
+#: inc/customizer.php:240
+#: inc/customizer.php:578
+#: inc/customizer.php:756
+#: inc/customizer.php:782
+msgid "Left"
+msgstr ""
+
+#: inc/customizer.php:241
+#: inc/customizer.php:579
+#: inc/customizer.php:757
+#: inc/customizer.php:783
+msgid "Center"
+msgstr ""
+
+#: inc/customizer.php:250
+msgid "Scroll Top Background Color"
+msgstr ""
+
+#: inc/customizer.php:260
+msgid "Scroll Top Color"
+msgstr ""
+
+#: inc/customizer.php:270
+msgid "Scroll Top Font Size"
+msgstr ""
+
+#: inc/customizer.php:271
+msgid "Put in px"
+msgstr ""
+
+#: inc/customizer.php:282
+msgid "Scroll To Top Border Radius"
+msgstr ""
+
+#: inc/customizer.php:298
+msgid "Hide Shop Page Sidebar"
+msgstr ""
+
+#. Template Name of the theme
+#: inc/customizer.php:313
+#: inc/customizer.php:339
+msgid "Left Sidebar"
+msgstr ""
+
+#. Template Name of the theme
+#: inc/customizer.php:314
+#: inc/customizer.php:340
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer.php:324
+msgid "Hide Single Product Page Sidebar"
+msgstr ""
+
+#: inc/customizer.php:351
+msgid "Product Border Radius"
+msgstr ""
+
+#: inc/customizer.php:375
+msgid "Top Header"
+msgstr ""
+
+#: inc/customizer.php:383
+msgid "Add Phone Number"
+msgstr ""
+
+#: inc/customizer.php:404
+msgid "Social Links"
+msgstr ""
+
+#: inc/customizer.php:412
+msgid "Facebook Link"
+msgstr ""
+
+#: inc/customizer.php:423
+msgid "Twitter Link"
+msgstr ""
+
+#: inc/customizer.php:434
+msgid "Intagram Link"
+msgstr ""
+
+#: inc/customizer.php:445
+msgid "Linkedin Link"
+msgstr ""
+
+#: inc/customizer.php:456
+msgid "YouTube Link"
+msgstr ""
+
+#: inc/customizer.php:476
+msgid "Menus Settings"
+msgstr ""
+
+#: inc/customizer.php:484
+msgid "Menu Font Size"
+msgstr ""
+
+#: inc/customizer.php:495
+msgid "Menu Text Transform"
+msgstr ""
+
+#: inc/customizer.php:497
+msgid "Uppercase"
+msgstr ""
+
+#: inc/customizer.php:498
+msgid "Capitalize"
+msgstr ""
+
+#: inc/customizer.php:499
+msgid "Lowercase"
+msgstr ""
+
+#: inc/customizer.php:510
+msgid "Menu Font Weight"
+msgstr ""
+
+#: inc/customizer.php:521
+msgid "Slider Option"
+msgstr ""
+
+#: inc/customizer.php:529
+msgid "Enable Disable Slider"
+msgstr ""
+
+#: inc/customizer.php:540
+msgid "Enable Disable Slider Title"
+msgstr ""
+
+#: inc/customizer.php:551
+msgid "Enable Disable Slider Button"
+msgstr ""
+
+#: inc/customizer.php:563
+msgid "Select Slide Page"
+msgstr ""
+
+#: inc/customizer.php:564
+msgid "Slider image size (1110 x 400 px)"
+msgstr ""
+
+#: inc/customizer.php:576
+msgid "Slider Content Layout"
+msgstr ""
+
+#: inc/customizer.php:591
+msgid "Slider Button Text"
+msgstr ""
+
+#: inc/customizer.php:603
+msgid "Slider Image Opacity"
+msgstr ""
+
+#: inc/customizer.php:626
+msgid "Slider Height"
+msgstr ""
+
+#: inc/customizer.php:627
+msgid "Add the slider height in px(eg. 500px)."
+msgstr ""
+
+#: inc/customizer.php:629
+msgid "500px"
+msgstr ""
+
+#: inc/customizer.php:649
+msgid "Popular Room Section"
+msgstr ""
+
+#: inc/customizer.php:657
+msgid "Enable Disable Popular"
+msgstr ""
+
+#: inc/customizer.php:667
+msgid "Add Heading"
+msgstr ""
+
+#: inc/customizer.php:677
+msgid "No of Popular Rooms to show"
+msgstr ""
+
+#: inc/customizer.php:692
+msgid "Select"
+msgstr ""
+
+#: inc/customizer.php:703
+msgid "Select Post"
+msgstr ""
+
+#: inc/customizer.php:723
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:731
+msgid "Footer Background Image"
+msgstr ""
+
+#: inc/customizer.php:740
+msgid "Replace the footer text"
+msgstr ""
+
+#: inc/customizer.php:753
+msgid "Footer Widget Content Alignment"
+msgstr ""
+
+#: inc/customizer.php:768
+msgid "Show / Hide Copyright"
+msgstr ""
+
+#: inc/customizer.php:779
+msgid "Copyright Content Alignment"
+msgstr ""
+
+#: inc/customizer.php:793
+msgid "Copyright Background Color"
+msgstr ""
+
+#: inc/customizer.php:811
+msgid "Post Settings"
+msgstr ""
+
+#: inc/customizer.php:821
+msgid "Enable Post Page Title"
+msgstr ""
+
+#: inc/customizer.php:823
+msgid "Check this box to enable title on post page."
+msgstr ""
+
+#: inc/customizer.php:832
+msgid "Enable Post Page Thumbnail"
+msgstr ""
+
+#: inc/customizer.php:834
+msgid "Check this box to enable thumbnail on post page."
+msgstr ""
+
+#: inc/customizer.php:843
+msgid "Enable Post Page Button"
+msgstr ""
+
+#: inc/customizer.php:845
+msgid "Check this box to enable button on post page."
+msgstr ""
+
+#: inc/customizer.php:854
+msgid "Enable Post Page Content"
+msgstr ""
+
+#: inc/customizer.php:856
+msgid "Check this box to enable content on post page."
+msgstr ""
+
+#: inc/customizer.php:864
+msgid "Post Page Excerpt Length"
+msgstr ""
+
+#: inc/customizer.php:880
+msgid "Post Page Excerpt Suffix"
+msgstr ""
+
+#: inc/customizer.php:882
+msgid "For Ex. [...], etc"
+msgstr ""
+
+#: inc/customizer.php:891
+msgid "Enable Post Page Pagination"
+msgstr ""
+
+#: inc/customizer.php:893
+msgid "Check this box to enable pagination on post page."
+msgstr ""
+
+#: inc/customizer.php:902
+msgid "Enable Single Post Thumbnail"
+msgstr ""
+
+#: inc/customizer.php:904
+msgid "Check this box to enable post thumbnail on single post."
+msgstr ""
+
+#: inc/customizer.php:913
+msgid "Enable Single Post Title"
+msgstr ""
+
+#: inc/customizer.php:915
+msgid "Check this box to enable title on single post."
+msgstr ""
+
+#: inc/customizer.php:924
+msgid "Enable Single Post Page Content"
+msgstr ""
+
+#: inc/customizer.php:926
+msgid "Check this box to enable content on single post page."
+msgstr ""
+
+#: inc/customizer.php:935
+msgid "Show / Hide Post Navigation"
+msgstr ""
+
+#: inc/customizer.php:953
+msgid "Page Settings"
+msgstr ""
+
+#: inc/customizer.php:963
+msgid "Enable Single Page Title"
+msgstr ""
+
+#: inc/customizer.php:965
+msgid "Check this box to enable title on single page."
+msgstr ""
+
+#: inc/customizer.php:974
+msgid "Enable Single Page Thumbnail"
+msgstr ""
+
+#: inc/customizer.php:976
+msgid "Check this box to enable page thumbnail on single page."
+msgstr ""
+
+#: inc/popular-room-meta.php:5
+msgid "Popular Room Meta Feilds"
+msgstr ""
+
+#: inc/popular-room-meta.php:25
+msgid "Room Address"
+msgstr ""
+
+#: inc/popular-room-meta.php:33
+msgid "Room Price"
+msgstr ""
+
+#: inc/popular-room-meta.php:41
+msgid "Room Discount"
+msgstr ""
+
+#: inc/popular-room-meta.php:49
+msgid "Room Rating"
+msgstr ""
+
+#. translators: %s: post date
+#. translators: %s: post author
+#: inc/template-tags.php:27
+#: inc/template-tags.php:33
+msgid "<span class=\"screen-reader-text\">Posted on</span> %s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:42
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:141
+msgid "Pingback:"
+msgstr ""
+
+#: inc/template-tags.php:142
+#: inc/template-tags.php:162
+msgid "Edit"
+msgstr ""
+
+#: inc/template-tags.php:167
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#. Template Name of the theme
+msgid "Home Template"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:12
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:12
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:14
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: template-parts/content-audio.php:47
+#: template-parts/content-gallery.php:35
+#: template-parts/content-image.php:33
+#: template-parts/content-search.php:17
+#: template-parts/content-video.php:46
+#: template-parts/content.php:33
+msgid "Read More"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:31
+#: template-parts/content-single.php:43
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:44
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:32
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/navigation/nav.php:14
+msgid "Top Menu"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:51
+msgid "Your order"
+msgstr ""

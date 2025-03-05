@@ -1,0 +1,42 @@
+/*
+Theme Name: Hotel Galaxy
+Theme URI: https://burgerthemes.com/hotel-galaxy-free/
+Author: burgersoftware
+Author URI: https://burgerthemes.com/
+Description: Hotel Galaxy is a Modern Hotel & Room Booking WordPress theme that is perfectly suitable for the hotel, resort, villas, and all kinds of hotel industry websites. This eye-catching theme is looking gorgeous for its clean and smooth design. It is compatible with the Advanced Booking Calendar plugin. The built-in booking system comes with some extended options. For example, if someone wants to book a room, they can do it either by searching a particular room from the search bar. Hotel Galaxy comes with the necessary features for your online presence. Checkout Pro Version https://burgerthemes.com/demo/pro/hotelgalaxy
+Version: 4.4.29
+Requires at least: 5.0
+Tested up to: 6.7
+Requires PHP: 7.2
+Tags: blog, entertainment, one-column, two-columns, right-sidebar, custom-colors, custom-menu, threaded-comments, custom-header, custom-background, custom-logo, featured-images, featured-image-header
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hotelgalaxy
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+.post-section .wp-block-latest-comments {
+    padding: 0;
+}
+
+ul.wp-block-social-links li a:before {
+    content: none !important;
+}
+ul.wp-block-social-links li a {
+    padding: 0.25rem !important;
+}
+.wp-block-button a.wp-block-button__link {
+    border-color: inherit;
+}
+.has-background.wp-block-read-more,
+.has-background.post-navigation-link-next {
+    padding: 0.25em 1.5em;
+}
+.wc-block-mini-cart__icon,
+.wc-block-mini-cart__badge {
+  color: inherit;
+}
+.has-background.wp-block-post-author {
+    padding: 1rem;
+}

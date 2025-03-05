@@ -1,0 +1,65 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "title": "Rosewood",
+  "version": 2,
+  "settings": {
+    "color": {
+        "palette": [
+        {
+          "slug": "primary",
+          "color": "#FF5656",
+          "name": "Primary"
+        },
+        {
+          "slug": "heading",
+          "color": "#82577A",
+          "name": "Heading"
+        },
+        {
+          "slug": "body-text",
+          "color": "#3F3B41",
+          "name": "Body Text"
+        },
+        {
+          "slug": "tertiary-text-color",
+          "color": "#999999",
+          "name": "Tertiary Text Color"
+        },
+        {
+          "slug": "tertiary-bg-color",
+          "color": "#f6f7fa",
+          "name": "Tertiary Bg Color"
+        },
+        {
+          "slug": "border-color",
+          "color": "#dadada",
+          "name": "Border Color"
+        },
+        {
+          "slug": "background",
+          "color": "#ffffff",
+          "name": "Background"
+        },
+        {
+          "slug": "foreground",
+          "color": "#000000",
+          "name": "Foreground"
+        },
+        {
+          "slug": "footer-bg",
+          "color": "#A17597",
+          "name": "Footer Bg"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--montserrat)"
+        }
+      }
+    }
+  }
+}

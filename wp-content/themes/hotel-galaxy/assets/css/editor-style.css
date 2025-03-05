@@ -1,0 +1,264 @@
+pre {
+	background: rgba(0, 0, 0, 0.05);
+	font-family: inherit;
+	font-size: inherit;
+	line-height: normal;
+	margin-bottom: 1.5em;
+	padding: 20px;
+	overflow: auto;
+	max-width: 100%;
+}
+th{
+	border-width: 0 1px 1px 0;
+	padding: 8px;
+}
+
+td a, th{font-weight: 700;}
+embed,iframe,object {max-width: 100%;}
+
+.sticky{}
+.wp-caption-text{}
+.bypostauthor{}
+
+/*==========================================
+	#Blockquote
+=================================*/
+
+blockquote {
+    font-weight: 700;
+    line-height: 26px;
+    border-left: none;
+    padding: 2.25rem;
+    position: relative;
+    background: ;
+}
+
+blockquote:after, blockquote:before {
+    content: '';
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-width: 0;
+    border-style: solid;
+    border-color: ;
+    z-index: 1;
+    -webkit-transition: ;
+    transition: ;
+}
+blockquote:after {
+    top: 0;
+    right: 0;
+    border-right-width: 2px;
+    border-top-width: 2px;
+}
+blockquote:before {
+    bottom: 0;
+    left: 0;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+}
+blockquote:hover:after,
+blockquote:hover:before,
+blockquote:focus-within:after,
+blockquote:focus-within:before {
+    width: 100%;
+    height: 100%;
+}
+
+blockquote span:after, blockquote span:before {
+    content: '';
+    font-family: ;
+    font-weight: 900;
+    font-size: 1.875rem;
+    position: absolute;
+    color: ;
+}
+
+blockquote span:after {
+    content: "\f10e";
+    bottom: -12px;
+    right: 50px;
+}
+
+blockquote span:before {
+    content: "\f10d";
+    top: -12px;
+    left: 50px;
+}
+
+blockquote p {
+    font-weight: 500;
+    line-height: 26px;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+blockquote cite, blockquote small {
+	line-height: 1.3;
+	padding-top: 15px;
+	display: block;
+}
+
+blockquote em, blockquote i, blockquote cite {
+    font-style: italic;
+}
+
+/*==========================================
+	#Wp Gallery
+=================================*/
+
+.gallery-item {
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+	margin: 0 0 1.5em;
+	padding: 0 1em 0 0;
+	width: 50%;
+}
+
+.gallery-columns-1 .gallery-item {
+	width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-item a,
+.gallery-item a:hover,
+.gallery-item a:focus {
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	background: none;
+	display: inline-block;
+	max-width: 100%;
+}
+
+.gallery-item a img {
+	display: block;
+	-webkit-transition: -webkit-filter 0.2s ease-in;
+	transition: -webkit-filter 0.2s ease-in;
+	transition: filter 0.2s ease-in;
+	transition: filter 0.2s ease-in, -webkit-filter 0.2s ease-in;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.gallery-item a:hover img,
+.gallery-item a:focus img {
+	-webkit-filter: opacity(60%);
+	filter: opacity(60%);
+}
+
+.gallery-caption {
+	display: block;
+	text-align: left;
+	padding: 0 10px 0 0;
+	margin-bottom: 0;
+}
+
+.gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-1 .gallery-item {
+	max-width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+	margin-bottom: 6px;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+
+/*==========================================
+	# Alignments
+=================================*/
+
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+}
+
+
+/*==========================================
+	# screen-reader
+=================================*/
+
+.screen-reader-text {
+	position: absolute;
+	
+}
+
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto;
+  clip-path: none;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  right: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;  
+}
+
+
+#content[tabindex="-1"]:focus {
+	outline: 0;
+}
+
+/*==========================================
+	# Captions
+=================================*/
+
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+	position:relative;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin: 0 auto 0;
+	max-width: 100%;
+}
+
+.wp-caption .wp-caption-text {
+	font-size: 75%;
+	padding-top: 5px;
+	opacity: 0.8;
+}
+
+.wp-caption img {
+	position: relative;
+	vertical-align: bottom;
+}	

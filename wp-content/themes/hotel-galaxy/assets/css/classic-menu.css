@@ -1,0 +1,54 @@
+
+.mastser-header-one .navbar-default .navbar-nav > .open > a, 
+.mastser-header-one .navbar-default .navbar-nav > .open > a:hover, 
+.mastser-header-one .navbar-default .navbar-nav > .open > a:focus,
+.mastser-header-one .navbar-nav > li:hover > a, 
+.mastser-header-one .navbar-nav > li > a:focus,
+.mastser-header-one .navbar-nav > li.active > a, 
+.mastser-header-one .navbar-nav > li > a:after, 
+.standard-header #mastser-header .navbar-nav > li > a:after, 
+ul.menu-right-list li > button:hover {
+  background-color:var(--hg-primary);
+  color: var(--white-color);
+}
+
+ul.menu-right-list li > button.header-booknow-toggle{
+  background-color: var(--hg-primary);
+  color: var(--white-color);
+}
+
+ul.menu-right-list li > button.header-booknow-toggle:hover,
+ul.menu-right-list li > button.header-booknow-toggle:focus{  
+  background-color: var(--hg-secondary);
+  color: var(--white-color);
+}
+
+#mastser-header .navbar-nav > li.dropdown > a{
+  padding-right: 24px!important;
+}
+#mastser-header .dropdown-menu {
+  background-color: var(--white-color);
+  box-shadow: 0 6px 12px rgb(0 0 0 / 10%);
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: inherit !important;
+    border-radius: 0;
+}
+#mastser-header .dropdown-menu li:not(:last-child) {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+#mastser-header .navbar-nav .dropdown-menu li a {
+  color:var(--hg-secondary);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  padding:12px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#mastser-header .dropdown-menu > li:hover > a, #mastser-header .dropdown-menu > li:focus-within > a, #mastser-header .dropdown-menu > li.active > a, .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+  color: var(--white-color);
+  background-color: var(--hg-primary);
+}

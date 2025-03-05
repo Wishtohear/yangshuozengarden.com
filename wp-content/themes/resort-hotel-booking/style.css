@@ -1,0 +1,369 @@
+/*
+Theme Name: Resort Hotel Booking
+Template: adventure-travelling
+Text Domain: resort-hotel-booking
+Author: ThemesPride
+Author URI: https://www.themespride.com/
+Theme URI: https://www.themespride.com/products/free-hotel-booking-wordpress-theme
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Description: Resort hotel booking is a WP theme designed specifically for travel agencies, hotel websites, blogs about travel, resorts, corporate hotel booking, Luxury resorts, Corporate travel, Business accommodations, Adventure travel, Outdoor adventure parks, Vacation rentals, Hotel reservations, Adventure tourism, Resort amenities, Corporate lodging, Adventure activities, AirBnB alternatives, Resort booking, Executive retreats, Adventure experiences, Hotel management, Corporate event venues, Luxury vacation rentals, Adventure holidays, Business travel accommodation, adventure sports, Air BNB, adventure parks, and tour companies. With this theme, you will find impressive features such as clean, user-friendly, responsive, beautiful, professional, personalization options, a testimonial section, a banner, a call to action button (CTA), social media, SEO-friendly, optimized codes. Resort hotel booking is intended for use on blogs, travel websites, and hotel websites in general. In order to make our resort booking theme easily found on Google and other search engines, we have optimized the SEO (search engine optimization) extensively. Through widgets, you can integrate ad programs such as AdSense in the top, sidebar, footer, and more. The design is simple, elegant, and modern. Websites can be used to promote hotel businesses and tour operators. The main features of the theme include Visual Composer Page Builder with Drag and Drop layout, Revolution Slider, Mega Main Menu, Powerful Theme Options Panel, Premium Preloader, and Unlimited Colors. With just a few clicks, you can create your own custom color scheme.
+Tags:  wide-blocks, block-styles, one-column, two-columns, right-sidebar, left-sidebar, three-columns, four-columns, grid-layout, custom-colors, custom-header,featured-image-header, custom-background, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, flexible-header, entertainment, portfolio, photography
+Version: 4.4
+Tested up to: 6.7
+Requires PHP: 5.6
+Requires at least: 5.0
+*/
+:root {
+    --color-primary1:#faac24;
+    --font-awesome:'FontAwesome';
+}
+h1,h2,h3,h4,h5,h6{
+  font-weight: bold;
+}
+#main-content p a {
+  text-decoration: underline;
+}
+.stick_head{
+  background: #1f1f1f !important;
+}
+a.added_to_cart.wc-forward,.box-info i,#theme-sidebar h3, #theme-sidebar h1.wp-block-heading, #theme-sidebar h2.wp-block-heading, #theme-sidebar h3.wp-block-heading,#theme-sidebar h4.wp-block-heading, #theme-sidebar h5.wp-block-heading, #theme-sidebar h6.wp-block-heading {
+  color: var(--color-primary1);
+}
+.logo h1 a:hover, .logo p a:hover, #slider .inner_carousel h1 a:hover, #travel-offer h3 a:hover, .call p a:hover, .email p a:hover, a,.box-content a, #theme-sidebar .textwidget a, #footer .textwidget a, .comment-body a, .entry-content a, .entry-summary a,.main-navigation a:hover,#theme-sidebar h3,#theme-sidebar a:hover,.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation .current_page_ancestor > a{
+  color: var(--color-primary1);
+}
+.site-info,.wc-block-cart__submit-container a,button[type="submit"],.woocommerce ul.products li.product .onsale, .woocommerce span.onsale,.wc-block-checkout__actions_row .wc-block-components-checkout-place-order-button,.search-box i,.prev.page-numbers, .next.page-numbers,.page-numbers,#theme-sidebar button[type="submit"], #footer button[type="submit"],span.meta-nav,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,#comments input[type="submit"],button[type="submit"],.error-404 [type="submit"],.headerbox,.main-navigation ul ul,.more-btn a,#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon,.blog-info{
+  background-color: var(--color-primary1);
+}
+.wp-block-tag-cloud a:hover,.readmore-btn a{
+  border-color: var(--color-primary1);
+}
+.search_inner form.search-form,#static-blog h3{
+  border-color: var(--color-primary1);
+}
+.wc-block-cart__submit-container a,.search-box i,.call i, .email i,p.infotext,.logo a,.page-numbers,#theme-sidebar button[type="submit"], #footer button[type="submit"],span.meta-nav,.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,#comments input[type="submit"],button[type="submit"],.more-btn a,.blog-info{
+  color: #fff;
+}
+#theme-sidebar .widget_tag_cloud a:hover,#theme-sidebar .tagcloud a:hover,p.wp-block-tag-cloud a:hover, .post_tag a:hover{
+  color: var(--color-primary1);
+  border-color:var(--color-primary1);
+}
+.inner_searchbox button[type="submit"], .search-bar i{
+  background-color: var(--color-primary1);
+  color:#fff;
+}
+/*block widget for sidebar*/
+#secondary .wp-calendar-table th, #footer .wp-calendar-table th{
+  background-color: #ffcc05;
+  color: #fff;
+  border-color: #ffcc05;
+}
+#footer .tagcloud a:hover, #footer p.wp-block-tag-cloud a:hover{
+  border-color: var(--color-primary1);
+  color: var(--color-primary1);
+}
+#theme-sidebar .wp-block-search .wp-block-search__label, #footer li a:hover{
+    color: var(--color-primary1);
+}
+#theme-sidebar .wp-block-search .wp-block-search__label:before,#theme-sidebar h3:before, #theme-sidebar h1.wp-block-heading:before, #theme-sidebar h2.wp-block-heading:before, #theme-sidebar h3.wp-block-heading:before,#theme-sidebar h4.wp-block-heading:before, #theme-sidebar h5.wp-block-heading:before, #theme-sidebar h6.wp-block-heading:before {
+  background-color: var(--color-primary1);
+}
+.page-box,#theme-sidebar section{
+  border-left-color: var(--color-primary1);
+  border-bottom-color: var(--color-primary1);
+}
+.readmore-btn a:hover{
+  border-color: #1c1c1c;
+}
+a:hover, .search-box i:hover{
+  color: #1c1c1c;
+}
+.wc-block-cart__submit-container a:hover{
+  background: #1c1c1c;
+}
+#footer .wp-block-latest-comments__comment-author, #footer .wp-block-latest-comments__comment-link{
+  color: #999;
+}
+.site-info a {
+    color: #fff;
+}
+.error-404 [type="submit"]{
+  background: var(--color-primary1);
+  border: solid 1px var(--color-primary1);
+}
+/* HEADER */
+
+.page-template-front-page .headerbox,.page-template-front-page .menubar {
+  background: transparent;
+}
+.page-template-front-page .right_menu {
+  background: rgb(31 31 31 / 60%);
+}
+.page-template-front-page #heade-outer {
+  position: absolute;
+  width: 100%;
+  z-index: 9999;
+  left: 0;
+  right: 0;
+}
+p.infotext{
+  font-family: 'Playfair Display', serif;
+  font-style: unset;
+}
+
+a.page-numbers{
+    color: white !important;
+ }
+
+/* MENUS */
+
+.main-navigation ul ul li, .menubar.scrolled .main-navigation ul ul li {
+  border-bottom: 1px solid #ffa200;
+}
+.menubar {
+  background: #1f1f1f;
+}
+
+/* SLIDER */
+#slider .inner_carousel h1 a {
+  padding: 0;
+  border: none;
+  font-size: 60px;
+}
+#slider .inner_carousel p {
+  display: none;
+}
+#slider .inner_carousel {
+  border-left: transparent;
+}
+.more-btn a{
+  padding: 15px;
+}
+#slider .carousel-control-prev-icon, #slider .carousel-control-next-icon {
+  padding: 10px 15px;
+  font-size: 15px;
+}
+#slider .carousel-control-prev-icon:hover, #slider .carousel-control-next-icon:hover{
+  background: #222222;
+  color: #ffffff;
+}
+#slider .carousel-caption{
+  top: 55%;
+}
+
+/* block gallery */
+
+figure.wp-block-gallery.columns-3 {
+    padding-right: 7%;
+}
+
+figure.wp-block-gallery.columns-2 {
+    padding-right: 1%;
+}
+
+/* block button */
+
+.wp-block-button a.wp-block-button__link {
+    border-radius: 30px;
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link:hover{
+    border-color:  #122947;
+    border-width: 4px;
+    color:  #122947 !important;
+}
+
+.wp-block-button.is-style-outline .wp-block-button__link{
+    border-color: var(--color-primary1);
+    color: var(--color-primary1) !important;
+}
+
+.wp-block-button.is-style-squared .wp-block-button__link {
+    border-radius: 0;
+}
+
+/* TOURS */
+
+#travel-offer strong {
+  text-transform: uppercase;
+  font-style: italic;
+  letter-spacing: 1px;
+  color: var(--color-primary1);
+}
+#travel-offer h2 {
+  font-size: 35px;
+}
+#travel-offer h3 a{
+  font-size: 20px;
+  color: #000;
+}
+.cat-inner-box {
+  border: solid 1px #e0e5ea;
+  box-shadow: 0 0 5px 1px #e0e5ea;
+  position: relative;
+}
+.cat-inner-box img{
+  width: 100%;
+}
+.cat-inner-box h4 {
+  position: absolute;
+  top: 0;
+  background: var(--color-primary1);
+  padding: 8px 14px;
+  color: #1f1f1f;
+  right: 0;
+  font-size: 18px;
+}
+.offer-box .serv-btn a {
+  background: var(--color-primary1);
+  color: #fff;
+  padding: 8px 14px;
+  font-weight: 500;
+  display: inline-block;
+  text-align: center;
+}
+.offer-box .serv-btn a:hover {
+    background: #222;
+}
+.offer-box span i {
+  color: var(--color-primary1);
+  font-size: 14px;
+}
+
+/* OTHER CSS */
+
+.bypostauthor > .comment-body > .comment-meta > .comment-author .avatar {
+  border: 1px solid #333;
+  padding: 2px;
+}
+.aligncenter,
+div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+}
+
+nav.woocommerce-MyAccount-navigation ul li:hover{
+  background: var(--color-primary1);
+}
+
+ul.sub-menu ul.sub-menu {
+    left: 202px !important;
+}
+
+@media screen and (max-width: 767px){
+  .page-template-front-page #heade-outer {
+    position: static;
+  }
+  .page-template-front-page .headerbox{
+    background: var(--color-primary1);
+  }
+  .page-template-front-page .menubar{
+    background: #1f1f1f;
+  }
+  #slider .inner_carousel h1 a{
+    display: block;
+    font-size: 20px;
+  }
+  .innermenubox {
+    padding: 0;
+  }
+  .toggle-nav i {
+    background: var(--color-primary1);
+    padding: 10px;
+  }
+  .sidenav{
+    background: var(--color-primary1);
+  }
+  .nav ul li a:hover,.main-navigation .current_page_item > a, .main-navigation .current-menu-item > a, .main-navigation .current_page_ancestor > a {
+    color: #fff;
+  }
+  .stick_head{
+    position: static;
+  }
+  #slider .carousel-control-prev-icon, #slider .carousel-control-next-icon {
+    padding: 4px 9px;
+    font-size: 15px;
+  }
+  #slider .more-btn a {
+    padding: 7px 6px;
+
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1000px){
+  .page-template-front-page #heade-outer {
+    position: static;
+  }
+  .page-template-front-page .headerbox{
+    background: var(--color-primary1);
+  }
+  .page-template-front-page .menubar{
+    background: #1f1f1f;
+  }
+  .call i, .email i,.logo h1 {
+    font-size: 25px;
+  }
+  .innermenubox {
+    padding: 0;
+  }
+  .toggle-nav i {
+    background: var(--color-primary1);
+    padding: 10px;
+  }
+  .sidenav{
+    background: var(--color-primary1);
+  }
+  .menubar.login-user.stick_head {
+    margin-top: 46px;
+  }
+  #slider .inner_carousel h1 a, #slider .inner_carousel p, .more-btn {
+    font-size: 26px;
+  }
+  .more-btn a {
+    padding: 8px;
+  }
+}
+
+@media screen and (min-width: 1001px) and (max-width: 1199px){
+  .page-template-front-page #heade-outer {
+    position: static;
+  }
+  .page-template-front-page .headerbox{
+    background: var(--color-primary1);
+  }
+  .page-template-front-page .menubar{
+    background: #1f1f1f;
+  }
+  .logo h1 {
+    font-size: 30px;
+  }
+}

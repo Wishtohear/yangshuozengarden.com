@@ -1,0 +1,22 @@
+.control-section-hotel-galaxy h3 {
+	margin: 0;
+	padding: 1px 0;
+	border: 0;
+	position: relative;
+}
+.control-section-hotel-galaxy h3 a {
+	background: #fff;
+	display: block;	
+	text-decoration: none;
+}
+li#accordion-section-hotel-galaxy a {
+    background: #4769D8;
+    color: #fff;
+    border-color: #492cdd;
+	margin-top: -4px;
+	text-decoration: none;	
+}
+
+li#accordion-section-hotel-galaxy h3 {
+    background: #4769D8  !important;
+}

@@ -1,0 +1,10 @@
+.control-section-adventure-travelling h3.accordion-section-title {
+    color: #faac24 !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+#accordion-section-adventure_travelling_section_pro a.button.button-secondary.alignright,
+#accordion-section-adventure_travelling_documentation a.button.button-secondary.alignright{
+    background: #faac24;
+    color: #fff;
+}

@@ -1,0 +1,361 @@
+
+@media (max-width:425px){
+    .container.d-flex.content-center, ul.nav.header_contact {
+        display: block!important;
+    }
+    #main-home-booking .overlay-1 .container .booking-content-area {
+        position: absolute;
+    }
+
+    .breadcrumb-section #main-home-booking{
+        bottom: 0 !important;
+    }
+    .room-grid-content-area, .room-template, .home-about{
+        margin-top: 575px;
+    }
+    .about-template-page .home-about{
+        margin-top: 0;
+    }
+    .is-sticky-menu {
+        top:0 !important;
+    }
+    .site-title-header{
+        font-size: 30px;
+    }
+    .view-all-btn {
+        position: inherit;
+        right: 0;
+        top: 0;
+    }
+    body .hg-home-slider.owl-carousel .owl-item h2 {
+        font-size: 1.5rem !important;
+        margin-bottom: 0.3125rem !important;
+        width: 15rem !important;
+    }
+    .main-content p {
+        font-size: 0.8125rem !important;
+        margin-bottom: 15px !important;
+        max-width:300px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: auto;
+        display: inline-block;
+    }
+    body .hg-home-slider h5.slider-title{
+        font-size: 15px;
+        margin-bottom: 0;
+        padding-left: 0;
+    }
+     body .hg-home-slider h5.slider-title:after{
+        display: none;
+    }
+    body .hg-home-slider h5.slider-title span i{
+        margin-left: 5px;
+    }
+    .btn-theme{
+        padding: 6px 12px !important;
+        font-size: 12px;
+    }
+    .datepick{
+        width: 320px !important;
+    }
+    .main-slider div.main-content {
+      margin-top: 0;
+      margin-bottom:0;
+    }
+}
+@media (max-width:1200px) {
+    div#main-home-booking {
+        right: 80px;
+        bottom: 0;
+    }
+
+    body .owl-carousel .owl-item.active h2 {
+        font-size: 5vw;
+    }
+
+    body .owl-carousel .carousel-caption {
+        left: 70px;
+    }
+
+    body .owl-carousel .carousel-caption-inner {
+        max-width: 467px;
+    }
+    .mphb_sc_rooms-wrapper.mphb-room-types {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+    }
+    .about-content-area .hg-about-container .about-video::before {
+        width: 80%;
+    }
+}
+
+@media (max-width:991px) {
+   .shape, .shape-3, .shape-4 {
+    display: none;
+}
+
+nav.navbar .caret, nav.navbar.navbar-default .dropdown .caret {
+    right: 12px;
+}
+header nav.navbar li.active>.caret::before
+{
+    color: var(--white-color);
+    content: "\f067"!important;
+
+}
+nav.navbar .caret, nav.navbar.navbar-default .dropdown .caret {
+    top: 15px;
+}
+#mastser-header .navbar-nav .dropdown {
+    display: block;
+    width: 100%;
+    justify-content: space-around;
+}
+#mastser-header .navbar-nav {
+    margin: 0;
+    display: block;
+    max-height: 400px;
+    overflow-x:auto ;   
+}
+#mastser-header .navbar-nav .dropdown-menu {
+    border: 0;
+    width: 100%!important;
+    border-radius: 0;
+    padding: 0!important;
+}
+#mastser-header .navbar-nav > li > a {
+    padding: 15px 15px !important;
+}
+.accommodation-grid .mphb_room_type {
+
+    margin: 30px 0!important;
+}
+.mphb_sc_rooms-wrapper.mphb-room-types {
+    display: block;
+
+}
+.navbar-collapse {
+    position: absolute;
+    background-color: var(--white-color);
+    width: 100%;
+    top: 100%;
+    left: 0;
+    right: 0;
+    max-width: 500px;
+    margin: auto;
+    box-shadow: 0 0 20px rgb(0 0 0 / 40%);
+}
+
+#mastser-header .navbar-nav li:not(:last-child) {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+header .container.d-flex.content-center {
+    display: block!important;
+}
+.dropdown {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.navbar .navbar-nav .dropdown .nav-link {
+    width: 100%;
+}
+.navbar button.fa.fa-chevron-right {
+    margin-right: 24px;
+}
+.hg-home-slider .owl-item img {
+    height: 64vh;
+    object-fit: cover;
+}
+
+.navbar a.header_search_btn {
+    margin: 15px;
+}
+div#main-home-booking{
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+img.img-responsive.wp-post-image {
+    height: 70vh;
+}
+
+body .owl-carousel .carousel-caption-inner {
+    max-width: 80%;
+    margin: 0 auto;
+}
+#main-home-callout .callout_right {
+    transform: translate(0, 0px);
+}
+.order-two {
+    order: 2;
+    margin-top: 30px !important;
+}
+nav.navbar li .caret{
+    display: block;
+}
+.main-menu-right {
+    display: none;
+}
+#mastser-header .navbar-nav > li > a:after{
+    display: none !important;
+}
+body .hg-home-slider.owl-carousel .owl-item h2 {
+        font-size: 2.75rem;
+        margin-bottom: 0.5125rem;
+        width: 30rem;
+    }
+}
+@media (max-width:768px) {
+    #commentform {
+        padding:20px 0px;
+    }
+    .scroll-top {
+        right: 11px;
+        bottom: 11px;
+    }
+    .breadcrumb-section #trapezoid:before {
+        left: -15px;
+        border-left: 15px solid #cb252500;
+    }
+    .breadcrumb-section #trapezoid:after {
+        right: -15px;
+        border-right: 15px solid #cb252500;
+    }
+    .breadcrumb-section .breadcrumb-title {
+        font-size: 27px;
+    }
+
+    .breadcrumb-section .breadcrum-list li {
+        font-size: 14px;
+    }
+    
+    body .owl-carousel .carousel-caption {
+        left: 0px;
+    }
+    .main-slider div.main-content {
+        margin-bottom: 0;
+    }
+    body .hg-home-slider.owl-carousel .owl-item h2 {
+        font-size: 2.5rem;
+        margin-bottom: 0.5125rem;
+        width: 25rem;
+    }
+    .main-content p {
+        font-size: 0.875rem !important;
+    }
+    .clearfix .phone-call{
+        display: none;
+    }
+    body .hg-home-slider.owl-carousel .owl-dots{
+        display: none;
+    }
+    #mastser-header form.search-form.hg-navigation-search {
+        width: 100%;   
+    }
+    #main-home-booking .overlay-1 .container .booking-content-area .mphb_sc_search-wrapper {
+        padding: 30px 40px !important;
+    }
+    #main-home-booking .overlay-1{
+        position: relative;
+        bottom: -10px;
+    }
+    .copyright-bar .col-lg-4 .footer-right-manu{
+        text-align: left;
+    } 
+    .about-rotate-box img {
+        top: -15px;
+        left: -5px;
+    }
+
+    .menu-category-list ul li {
+      margin-bottom: 10px;
+      width: 100%;
+  }
+  .hg-cf7-wrap {
+      padding: 60px 30px 60px;
+  }
+  .payment-methods {
+    text-align: left;
+}
+div#booking-widget-sidebar {
+    position: relative !important;
+    top: 0 !important;
+}
+
+}
+@media (min-width: 992px) {
+    .navbar li.active .caret::before{
+        color: var(--white-color)!important;  
+    }
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        right: 0;
+    }
+    header .navbar-brand {
+        min-width: 230px;
+        padding-bottom: 0;
+        padding-top: 00;
+    }
+    nav .dropdown-submenu {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main-menubar .container {
+        position: relative;
+    }
+    header#main-header {
+        min-height: 185px;
+    }
+    .topbar-right {
+        display: flex;
+        align-items: center;
+    }
+    #sidbar.collapse {
+        display: block;
+    }
+    .offer-wrapper {
+        padding-bottom: 200px;
+    }
+    .social-media {
+        display: flex;
+        align-items: center;
+    }
+    .dropdown>.dropdown-menu {
+        min-width: 240px;
+        transform-origin: top;
+        animation-fill-mode: forwards;
+        transform: scale(1, 0);
+        transition: all 0.2s linear;
+        display: block;
+        padding: 0;
+        border: 0;
+    }
+    .dropdown:hover>.dropdown-menu,
+    .dropdown:focus-within>.dropdown-menu,
+    .dropdown .dropdown:hover>.dropdown-menu,
+    .dropdown .dropdown:focus-within>.dropdown-menu {
+        transform-origin: top;
+        animation-fill-mode: forwards;
+        transform: scale(1, 1);
+        transition: all 0.2s linear;
+    }
+    li li.dropdown>.dropdown-menu {
+        left: 100%;
+        top: -2px !important;
+    } 
+    .header-above-btn{
+        display: none;
+    }
+    .info-bar.collapse:not(.show) {
+        display: flex;
+    } 
+}
