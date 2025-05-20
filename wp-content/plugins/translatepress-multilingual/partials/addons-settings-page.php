@@ -1,10 +1,11 @@
 <?php
-if ( !defined('ABSPATH' ) )
-    exit();
+    if ( !defined('ABSPATH' ) )
+        exit();
 ?>
-<div id="trp-addons-page" class="wrap">
 
-    <h1> <?php esc_html_e( 'TranslatePress Settings', 'translatepress-multilingual' );?></h1>
+<div id="trp-settings-page" class="wrap">
+    <?php require_once TRP_PLUGIN_DIR . 'partials/settings-header.php'; ?>
+
     <?php do_action ( 'trp_settings_navigation_tabs' ); ?>
 
     <?php
@@ -12,7 +13,7 @@ if ( !defined('ABSPATH' ) )
     $trp_addons_listing = new TRP_Addons_List_Table();
     $trp_addons_listing->images_folder = TRP_PLUGIN_URL.'assets/images/';
     $trp_addons_listing->text_domain = 'translatepress-multilingual';
-    $trp_addons_listing->header = array( 'title' => __('TranslatePress Add-ons', 'translatepress-multilingual' ) );
+
     if( defined( 'TRANSLATE_PRESS' ) )
         $trp_addons_listing->current_version = TRANSLATE_PRESS;
     else
@@ -36,14 +37,14 @@ if ( !defined('ABSPATH' ) )
             'type' => 'add-on',
             'name' => $seo_pack_name,
             'description' => __( 'SEO support for page slug, page title, description and facebook and twitter social graph information. The HTML lang attribute is properly set.', 'translatepress-multilingual' ),
-            'icon' => 'seo_icon_translatepress.png',
+            'icon' => 'seo_icon_translatepress_addon_page.png',
             'doc_url' => 'https://translatepress.com/docs/addons/seo-pack/?utm_source=wpbackend&utm_medium=clientsite&utm_content=add-on-page&utm_campaign=TRP',
         ),
         array(  'slug' => 'tp-add-on-extra-languages/tp-extra-languages.php',
             'type' => 'add-on',
             'name' => __( 'Multiple Languages', 'translatepress-multilingual' ),
             'description' => __( 'Add as many languages as you need for your project to go global. Publish your language only when all your translations are done.', 'translatepress-multilingual' ),
-            'icon' => 'multiple_lang_icon.png',
+            'icon' => 'multiple_lang_addon_page.png',
             'doc_url' => 'https://translatepress.com/docs/addons/multiple-languages/?utm_source=wpbackend&utm_medium=clientsite&utm_content=add-on-page&utm_campaign=TRP',
         ),
     );
@@ -57,35 +58,35 @@ if ( !defined('ABSPATH' ) )
             'type' => 'add-on',
             'name' => __( 'DeepL Automatic Translation', 'translatepress-multilingual' ),
             'description' => __( 'Automatically translate your website through the DeepL API.', 'translatepress-multilingual' ),
-            'icon' => 'deepl-add-on.png',
+            'icon' => 'deepl-add-on-page.png',
             'doc_url' => 'https://translatepress.com/docs/addons/deepl-automatic-translation/?utm_source=wpbackend&utm_medium=clientsite&utm_content=add-on-page&utm_campaign=TRP',
         ),
         array(  'slug' => 'tp-add-on-automatic-language-detection/tp-automatic-language-detection.php',
             'type' => 'add-on',
             'name' => __( 'Automatic User Language Detection', 'translatepress-multilingual' ),
             'description' => __( 'Prompts visitors to switch to their preferred language based on their browser settings or IP address and remembers the last visited language.', 'translatepress-multilingual' ),
-            'icon' => 'auto-detect-language-add-on.png',
+            'icon' => 'automatic_user_lang_detection_addon_page.png',
             'doc_url' => 'https://translatepress.com/docs/addons/automatic-user-language-detection/?utm_source=wpbackend&utm_medium=clientsite&utm_content=add-on-page&utm_campaign=TRP',
         ),
         array(  'slug' => 'tp-add-on-translator-accounts/index.php',
             'type' => 'add-on',
             'name' => __( 'Translator Accounts', 'translatepress-multilingual' ),
             'description' => __( 'Create translator accounts for new users or allow existing users that are not administrators to translate your website.', 'translatepress-multilingual' ),
-            'icon' => 'translator-accounts-addon.png',
+            'icon' => 'translator_accounts_addon_page.png',
             'doc_url' => 'https://translatepress.com/docs/addons/translator-accounts/?utm_source=wpbackend&utm_medium=clientsite&utm_content=add-on-page&utm_campaign=TRP',
         ),
         array(  'slug' => 'tp-add-on-browse-as-other-roles/tp-browse-as-other-role.php',
             'type' => 'add-on',
             'name' => __( 'Browse As User Role', 'translatepress-multilingual' ),
             'description' => __( 'Navigate your website just like a particular user role would. Really useful for dynamic content or hidden content that appears for particular users.', 'translatepress-multilingual' ),
-            'icon' => 'view-as-addon.png',
+            'icon' => 'browse_as_user_role_addon_page.png',
             'doc_url' => 'https://translatepress.com/docs/addons/browse-as-role/?utm_source=wpbackend&utm_medium=clientsite&utm_content=add-on-page&utm_campaign=TRP',
         ),
         array(  'slug' => 'tp-add-on-navigation-based-on-language/tp-navigation-based-on-language.php',
             'type' => 'add-on',
             'name' => __( 'Navigation Based on Language', 'translatepress-multilingual' ),
             'description' => __( 'Configure different menu items for different languages.', 'translatepress-multilingual' ),
-            'icon' => 'menu_based_on_lang.png',
+            'icon' => 'navigation_based_on_lang_addon_page.png',
             'doc_url' => 'https://translatepress.com/docs/addons/navigate-based-language/?utm_source=wpbackend&utm_medium=clientsite&utm_content=add-on-page&utm_campaign=TRP',
         ),
     );
@@ -104,7 +105,8 @@ if ( !defined('ABSPATH' ) )
             'icon' => 'pb_logo.jpg',
             'doc_url' => 'https://www.cozmoslabs.com/wordpress-profile-builder/?utm_source=tpbackend&utm_medium=clientsite&utm_content=tp-addons-page&utm_campaign=TPPB',
             'disabled' => $plugin_settings['pb']['disabled'],
-            'install_button' =>  $plugin_settings['pb']['install_button']
+            'install_button' =>  $plugin_settings['pb']['install_button'],
+            'action' => $plugin_settings['pb']['action']
         ),
         array(  'slug' => 'paid-member-subscriptions/index.php',
             'short-slug' => 'pms',
@@ -114,7 +116,8 @@ if ( !defined('ABSPATH' ) )
             'icon' => 'pms_logo.jpg',
             'doc_url' => 'https://www.cozmoslabs.com/wordpress-paid-member-subscriptions/?utm_source=tpbackend&utm_medium=clientsite&utm_content=tp-addons-page&utm_campaign=TPPMS',
             'disabled' => $plugin_settings['pms']['disabled'],
-            'install_button' =>  $plugin_settings['pms']['install_button']
+            'install_button' =>  $plugin_settings['pms']['install_button'],
+            'action' => $plugin_settings['pms']['action']
         ),
         array( 'slug' => 'wp-webhooks/wp-webhooks.php',
             'short-slug' => 'wha',
@@ -124,7 +127,8 @@ if ( !defined('ABSPATH' ) )
             'icon' => 'wha_logo.png',
             'doc_url' => 'https://wp-webhooks.com/integrations/?utm_source=tpbackend&utm_medium=clientsite&utm_content=tp-addons-page&utm_campaign=TPWPW',
             'disabled' => $plugin_settings['wha']['disabled'],
-            'install_button' =>  $plugin_settings['wha']['install_button']
+            'install_button' =>  $plugin_settings['wha']['install_button'],
+            'action' => $plugin_settings['wha']['action']
         )
     );
     $trp_addons_listing->add_section();
